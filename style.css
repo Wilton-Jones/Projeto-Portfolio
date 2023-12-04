@@ -1,0 +1,183 @@
+body {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.container {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+}
+#header {
+    font-family: Poppins;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-decoration: underline;
+}
+#menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#menu li {
+    display: inline-block;
+    margin-left: 20px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+#menu {
+    text-align: right;
+    margin-top: 49px;
+}
+a {
+    color: black;
+    text-decoration: none; 
+}
+#headerTitulo h1 {
+    font-family: Poppins;
+    font-size: 45px;
+    font-weight: 700;
+    letter-spacing: 0em;
+    text-align: left;
+}
+p.gray {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #575455;
+
+}
+#buttonTitulo {
+    border-radius: 50px;
+    background: #1F7CFF;
+    font-family: Poppins;
+    font-size: 16px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 10px 25px 10px 25px;
+}
+#headerImg img {
+    width: 100%;
+}
+#headerImg {
+    margin-left: 42px;
+}
+#textoIcones p {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #070F18;
+
+}
+.icones {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#textoIcones {
+    margin-top: 30px;
+}
+#titleServices h1, h3 {
+    text-align: center;
+}
+#textServices {
+    text-align: center;
+}
+h3.red {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0em;
+    color: #F75C4E;
+    margin: 0;
+}
+h1.black {
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 0em;
+    color: #000000;
+    margin-top: 0;
+}
+
+.icones2, h2 {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0em;
+    color: #070F18;
+    text-align: center;
+}
+.icones2 p {
+    text-align: center;
+}
+#contactImg img {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#contactForm h3 {
+margin-top: 100px;
+text-align: left;
+}
+#contactForm {
+margin-left: 65px;
+}
+#contactForm h1 {
+text-align: left;
+margin: 0;
+}
+#contactForm input {
+background-color: #F5F6FB;
+border-radius: 50px;
+font-family: Poppins;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+color: #575455;
+border: 0;
+width: 80%;
+padding: 15px 15px 15px 30px
+}
+#contactForm button {
+background: #1F7CFF;
+border-radius: 50px;
+font-family: Poppins;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: center;
+color: #FFFFFF;
+border: 0;
+padding: 10px 60px 10px 60px;
+cursor: pointer;
+}
+#portfoliotitle {
+margin-top: 100px;
+margin-bottom: 40px;
+}
+#portfoliotitle h3 {
+text-align: left;
+}
+.portfolioimg img {
+width: 100%;
+}
+.portfolioimg {
+padding: 20px;
+}
